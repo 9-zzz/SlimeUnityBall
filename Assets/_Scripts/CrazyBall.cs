@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Ball : MonoBehaviour
+public class CrazyBall : MonoBehaviour
 {
     Vector3 startingPosOne;
     Vector3 startingPosTwo;
@@ -36,6 +36,8 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
+        maxSpeed += 0.1f;
+
         if (col.gameObject.tag == "floor" && (transform.position.x < 0))
         {
             ScoreKeeper.S.blueScore++;
