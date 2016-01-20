@@ -7,7 +7,7 @@ public class ScoreKeeper : MonoBehaviour
 
     public static ScoreKeeper S;
 
-    public GameObject lsb;
+    public GameObject bsb;
     public GameObject rsb;
     public int redScore = -1;
     public int blueScore = -1;
@@ -30,7 +30,7 @@ public class ScoreKeeper : MonoBehaviour
         if (blueScore == 4)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        lsb.transform.GetChild(blueScore).GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+        bsb.transform.GetChild(blueScore).GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
     }
 
     // Use this for initialization

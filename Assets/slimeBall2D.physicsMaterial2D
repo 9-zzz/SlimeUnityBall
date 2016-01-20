@@ -7,4 +7,4 @@ PhysicsMaterial2D:
   m_PrefabInternal: {fileID: 0}
   m_Name: slimeBall2D
   friction: 0.4
-  bounciness: 1.1
+  bounciness: 1

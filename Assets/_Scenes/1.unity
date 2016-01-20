@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 179841387}
   - 212: {fileID: 179841389}
   - 61: {fileID: 179841388}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: net (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f868702cc613da4bb45e4823473a221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lsb: {fileID: 929161583}
+  bsb: {fileID: 929161583}
   rsb: {fileID: 1121884762}
   redScore: -1
   blueScore: -1
